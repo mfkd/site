@@ -1,0 +1,59 @@
+baseURL = "https://mfkd.github.io/"
+title = "Matthew Doherty"
+theme = "hugo-coder"
+languageCode = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+# Enable Disqus comments
+# disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Matthew Doherty"
+description = "Matthew Doherty's personal website"
+keywords = "blog,developer,personal"
+info = ["Software Developer"]
+hideFooter = false
+hideCredits = true
+hideCopyright = true
+enableTwemoji = true
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/mfkd"
+
+#[[params.social]]
+#name = "Twitter"
+#icon = "fa fa-twitter"
+#weight = 3
+#url = "https://twitter.com/mfkd67711036/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/matthew-doherty-b11a5516b/"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "/about/"
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "/posts/"
