@@ -32,19 +32,19 @@ hideColorSchemeToggle = false
 
 [[params.social]]
 name = "Github"
-icon = "fa fa-github"
+icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/mfkd"
 
 #[[params.social]]
 #name = "Twitter"
-#icon = "fa fa-twitter"
+#icon = "fa fa-2x fa-twitter"
 #weight = 3
 #url = "https://twitter.com/mfkd67711036/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa fa-linkedin"
+icon = "fa fa-2x fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/matthew-doherty-b11a5516b/"
 
