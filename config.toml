@@ -57,3 +57,7 @@ url = "/about/"
 name = "Blog"
 weight = 2
 url = "/posts/"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-150Q6QCKJN'
